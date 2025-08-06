@@ -1,0 +1,13 @@
+steps:
+# Passos para implantar a função 'calculateTokenDailyValue'
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: [
+      'functions', 'deploy', 'calculateTokenDailyValue',
+      '--gen2',
+      '--region', 'southamerica-east1',
+      '--runtime', 'nodejs20',
+      '--source', 'calculateTokenDailyValue/',
+      '--entry-point', 'calculateTokenDailyValue',
+      '--trigger-http',
+      '--allow-unauthenticated'
+  ]
