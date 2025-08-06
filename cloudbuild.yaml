@@ -7,8 +7,7 @@ steps:
       '--runtime', 'nodejs20',
       '--source', 'calculateTokenDailyValue/',
       '--entry-point', 'calculateTokenDailyValue',
-      '--trigger-http',
-      '--allow-unauthenticated'
+      '--trigger-http'
   ]
 
 options:
