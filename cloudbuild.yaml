@@ -12,4 +12,4 @@ steps:
   ]
 
 options:
-  logsBucket: 'gs://944753101931-southamerica-east1-cloudbuild-logs'
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
