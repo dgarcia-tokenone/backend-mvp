@@ -1,5 +1,4 @@
 steps:
-# Passos para implantar a função 'calculateTokenDailyValue'
 - name: 'gcr.io/cloud-builders/gcloud'
   args: [
       'functions', 'deploy', 'calculateTokenDailyValue',
@@ -11,3 +10,6 @@ steps:
       '--trigger-http',
       '--allow-unauthenticated'
   ]
+
+options:
+  logsBucket: 'gs://944753101931-southamerica-east1-cloudbuild-logs'
