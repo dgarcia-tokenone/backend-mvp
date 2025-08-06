@@ -8,8 +8,7 @@ steps:
       '--source', 'calculateTokenDailyValue/',
       '--entry-point', 'calculateTokenDailyValue',
       '--trigger-http',
-      '--allow-unauthenticated',
-      '--clear-policy'
+      '--allow-unauthenticated'
   ]
 
 options:
