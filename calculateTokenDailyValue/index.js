@@ -1,7 +1,7 @@
 const functions = require('@google-cloud/functions-framework');
 const admin = require('firebase-admin');
 
-//Nova versão
+// Nova versão
 // Inicializa o SDK do Admin do Firebase
 // O ambiente do Cloud Functions fornece as credenciais automaticamente
 admin.initializeApp();
